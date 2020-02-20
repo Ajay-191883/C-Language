@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,k;
+    printf("Enter any No. = ");
+    scanf("%d",&i);
+    printf("Enter second No. = ");
+    scanf("%d",&j);
+    k=i;
+    i=j;
+    j=k;
+    printf("After Swapping \n 1st No. becomes = %d and 2nd No. is = %d ",i,j);
+return (0);
+}
